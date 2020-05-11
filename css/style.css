@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.header {
+    box-shadow: 0px 0px 45px grey;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.header-logo {
+    margin: 15px auto 10px auto;
+    float: left;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.principal {
+    margin-top: 113px;
+    display: block;
+    width: 100%;
+}
+
+.caixa {
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    width: 90px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.menu {
+    margin-top: 28px;
+    float: right;
+}
+
+.titulo {
+    width: 80%;
+    margin: 5px auto;
+    font-size: 2.2em;
+}
+
+.sub-titulo {
+    width: 80%;
+    margin: 5px auto;
+}
+
+.equipe {
+    margin: 50px 0;
+    display: flex;
+}
+
+.im-equipe {
+    border-radius: 7px;
+    margin-right: 50px;
+    max-height: 297px;
+    max-width: 446px;
+    float: left;
+    box-shadow: 0px 3px 25px grey;
+}
+
+.equipe-titulo {
+    font-size: 1.5em;
+    margin: 8px 0;
+    margin-top: 20px;
+}
+
+.equipe-desc {
+    font-size: 0.9em;
+    max-width: 600px;
+}
+
+
+
+.contatos {
+    color: white;
+    font-size: 0.8em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fotos {
+    display: flex;
+    align-items: flex-start;
+    margin: 35px 0;
+}
+
+.titulo2 {
+    margin: 15px auto;
+    font-size: 1.8em;
+}
+
+.titulo3 {
+    margin: 5px 0;
+    color: white;
+    font-size: 1.8em;
+}
+
+.preto {
+    position: relative;
+    display: block;
+    background-color: black;
+    padding: 40px 0;
+}
+
+.rodape {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.mail {
+    color: #c1bea3;
+}
+
+.direitos {
+    margin: 55px 0;
+    float: left;
+
+    color: darkgray;
+    font-size: 0.8em;
+}
+
+a:link {
+    text-decoration: none;
+    color: #c1bea3;
+}
+
+a:hover {
+    color: #898775;
+}
+
+.img40 {
+    width: 40px;
+}
+
+.social {
+    float: right;
+    margin: 40px 0;
+
+}
+
+.barra {
+    background-color: black;
+    color: white;
+    padding: 20px 0 26px 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+.box-fotos {
+    padding: 35px auto;
+}
+
+.foto {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-left: 5px;
+}
+
+.info {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.borda15 {
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px #ada3a3;
+}
+
+@media only screen and (max-width: 736px) {
+    /* Dispositivos móveis */
+    html,
+    body {
+        height: 100%;
+    }
+    .header {
+        position: absolute;
+        width: 100%;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .header-logo {
+        display: grid;
+        float: none;
+    }
+
+    .logo {
+        margin: 5px 15px;
+    }
+
+    .menu {
+        margin: 20px 0;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+    .equipe {
+        display: grid;
+    }
+    .im-equipe {
+        margin-bottom: 40px;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 0;
+    }
+    .titulo {
+        margin-top: 35px;
+    }
+    .equipe-desc {
+        text-align: center;
+        max-width: 100%;
+        margin: 20px;
+    }
+    .rodape {
+        width: 100%;
+        display: grid;
+    }
+    .social {
+        margin: 20px auto;
+    }
+
+    .direitos {
+        margin: 20px auto;
+    }
+    .box-fotos {
+        display: grid;
+        width: 100%;
+    }
+    .fotos {
+        display: grid;
+        margin: 15px 0;
+    }
+    .foto {
+        max-width: 100%;
+        border-radius: 0;
+        margin: 10px 0;
+    }
+    .borda15 {
+        border-radius: 0;
+    }
+    .titulo2 {
+
+        margin: 0 auto;
+    }
+
+    /* Hamb Menu */
+}
